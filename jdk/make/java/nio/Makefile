@@ -31,8 +31,8 @@ BUILDDIR = ../..
 PACKAGE = java.nio
 LIBRARY = nio
 PRODUCT = java
-JAVAC_MAX_WARNINGS = true
-JAVAC_WARNINGS_FATAL = true
+#JAVAC_MAX_WARNINGS = true
+#JAVAC_WARNINGS_FATAL = true
 include $(BUILDDIR)/common/Defs.gmk
 
 NIO_SRC = $(SHARE_SRC)/classes/java/nio
