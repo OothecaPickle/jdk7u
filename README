@@ -1,5 +1,5 @@
 Built Sep 2, 2022 on macOS 10.13.6 using Xcode 10.1 CLT llvm-clang:
-LANG=C ALT_BOOTDIR=$(/usr/libexec/java_home -v 1.6) CC=/usr/bin/gcc CXX=/usr/bin/g++ COMPILER_WARNINGS_FATAL=false JAVAC_WARNINGS_FATAL=false make all
+LANG=C ALT_BOOTDIR=$(/usr/libexec/java_home -v 1.6) CC=/usr/bin/gcc CXX=/usr/bin/g++ COMPILER_WARNINGS_FATAL=false JAVAC_WARNINGS_FATAL=false make all FULL_VERSION="1.7.0_351-b07-maga" RELEASE="1.7.0_351" MILESTONE="351" BUILD_NUMBER="b07"
 
 README:
   This file should be located at the top of the OpenJDK Mercurial root
